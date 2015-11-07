@@ -1,0 +1,205 @@
+   /*
+	LAYOUT STYLES
+*/
+
+/*
+	Nav Block
+*/
+.flex-container {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	border: 1px solid green;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.5rem;
+	line-height: 3rem;
+  	list-style: none;
+  	display: flex;
+  	background-color: black;
+	border-bottom: 5px solid yellow;
+  	justify-content: space-around;
+	}
+
+.flex-item {
+	background-color: black;
+}
+
+.nav__home {
+	color: yellow;
+	font-size: 3.75rem;
+	font-family: 'Merriweather', serif;
+	width: 45%;
+}
+
+.flex-item__extra {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.content-tagline {
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 3.5rem;
+	font-style: italic;
+	line-height: 3rem;
+	text-align: center;
+	background-color: rgb(198,198,198);
+	padding: 25px;
+}
+
+/*
+	row block
+*/
+.row {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.row__container {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+/*
+	column block
+*/
+
+.columns {
+	display: flex;
+}
+
+.columns__thirds {
+	width: 33.33333%;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(0,0,0,.15);
+	min-height: 300px;
+}
+
+.columns__thirds:last-child {
+	border-right: 1px solid transparent;
+}
+
+/*
+	generic flex-box block
+*/
+
+.flex-box {
+	display: flex;
+}
+
+.flex-box--row {
+	flex-direction: row;
+}
+
+.flex-box--wrap {
+	flex-wrap: wrap;
+}
+
+.flex-box__end {
+	align-self: flex-end;
+}
+
+/*
+	text-block block
+*/
+
+.text-block {
+	padding: 20px;
+}
+
+.text-block__header {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 5rem;
+}
+
+.text-block__content {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+/*
+	button block
+*/
+
+.button {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
+	padding: 20px;
+	background-color: rgb(198,198,198);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.button--yellow {
+	background-color: yellow;
+}
+
+/*
+	profile styles
+*/
+
+.profile {
+	background-size: 100%;
+	background-position: center;
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.profile__box {
+	background-color: rgba(255,255,255,0.8);
+	width: 35%;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.15);
+	min-height: 300px;
+	float: right;
+}
+
+/*
+	GENERAL STYLES
+*/
+
+html {
+	font-size: 10px;
+	/*font-family: font-family: 'Source Sans Pro', sans-serif;*/
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+img {
+	width: 100%
+}
+
+u {
+	text-decoration: yellow;
+}
+
+strike {
+	color: grey;
+}
